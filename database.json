@@ -1,0 +1,104 @@
+{
+	"categories": [
+	{
+		"tags":["<statement>","<greeting>"],
+		"patterns":["hi","hello","hey","hey hey",
+					"hey hey hey","salutations",
+					"howdy","hey there","greetings",
+					"ni hao","privet","hola","hi there",
+					"evening","morning","good evening",
+					"good morning"],
+		"responses":["Hi","Hello","Hey","Salutations","Greetings",
+					 "Hello, how can I help you today?","How can I be of your assistance?",
+					 "Hello, how can I be of your assistance today?","Hi, how can I help you?",
+					 "Hey, what's up?","Hello, what can I help you with today?"],
+		"operation":["0"]
+	},
+    {
+		"tags":["<statement>","<farewell>"],
+		"patterns":["bye","goodbye","see you later","take care",
+					"bye bye","see you","see ya","later","catch you later",
+					"farewell","good day","bye now","goodbye now","Goodbye",
+					"Good bye"],
+		"responses":["Bye","Goodbye","Take care","Farewell","See you later","Good day",
+					 "See you another day my friend"],
+		"operation":["99"]
+    },
+    {
+		"tags":["<question>","<mood_inquiry>"],
+		"patterns":["hows it going","how are you","how are you today",
+					"how are you doing","whats up","hows everything",
+					"whats new","hows life","how do you feel",
+					"hows it going","whats going on"],
+		"responses":["I am doing good, how about you?","I am well how about you?"],
+		"operation":["0"]
+    },
+    {
+		"tags":["<statement>","<positive_mood>"],
+		"patterns":["im doing well","im alright","im okay",
+					"i am okay","i am well","i am so happy",
+					"i am so happy right now","feeling positive"],
+		"responses":["I am glad to hear that! How can I be of your service today?",
+					 "That is good to hear! How can I help you today?"],
+		"operation":["0"]
+    },
+    {
+		"tags":["<statement>","<gratitudes>"],
+		"patterns":["thanks","thank you","thanks a lot","thanks a million","thank you so much"],
+		"responses":["You're welcome","No problem","Happy to help!","My pleasure!"],
+		"operation":["0"]
+    },
+    {
+		"tags":["<statement>","<apologies>"],
+		"patterns":["sorry","apologies","i apologize","im sorry",
+					"im so sorry","so sorry","sorry about that",
+					"im sorry about that","im sorry i did that"],
+		"responses":["It's okay","No worries","All good","No need to apologize my friend"],
+		"operation":["0"]
+    },
+    {
+		"tags":["<command>","<joke>"],
+		"patterns":["make me laugh","tell me a joke","be funny"],
+		"responses":["Why don't skeletons fight each other? They don't have the guts!",
+					 "Why did the scarecrow win an award? Because he was outstanding in his field!"],
+		"operation":["0"]
+    },
+    {
+		"tags":["<question>","<time_inquiry>"],
+		"patterns":["do you have the time","what time is it",
+					"do you know what time it is","tell me what time it is"],
+		"responses":["-"],
+		"operation":["1"]
+    },
+    {
+		"tags":["<question>","<day_inquiry>"],
+		"patterns":["what day is it","what is today","do you know what day it is",
+					"tell me what day it is","tell me what is today"],
+		"responses":["-"],
+		"operation":["2"]
+    },
+    {
+		"tags":["<command>","<reboot>"],
+		"patterns":["restart the application","restart the robot application",
+					"restart the robot software application","restart robot application",
+					"restart","reboot robot","reboot","reboot the robot"],
+		"responses":["-"],
+		"operation":["3"]
+    },
+    {
+		"tags":["<command>","<move_forward>"],
+		"patterns":["move forward","move forwards","move the robot forward","forward","go forward",
+					"go forwards"],
+		"responses":["-"],
+		"operation":["4"]
+    },
+    {
+		"tags":["<command>","<move_backward>"],
+		"patterns":["move forward","move forwards",
+					"move the robot forward","forward",
+					"go forward","go forwards"],
+		"responses":["-"],
+		"operation":["5"]
+    }
+  ]
+}
